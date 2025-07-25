@@ -2,7 +2,7 @@
 <p align="center">
   A vanilla styled HUD for Team Fortress 2!
   <br />
-  · <a href="https://gamebanana.com/mods/609267">GameBanana</a> ·
+  <a href="https://gamebanana.com/mods/609267">GameBanana</a> ·  <a href="https://tf2huds.dev/hud/Cooler-HUD">TF2 HUDs</a> · 
 </p>
 </p>
 
