@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "vgui\replay\thumbnails\hud\left"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$no_fullbright" 1
+	"$color" "{244 244 244}" 
+	"$ignorez" 1
+	"%keywords" "tf"
+	// give it a slight outer soft edge
+	$softedges 1
+	$edgesoftnessstart 0.4
+	$edgesoftnessend 0.2
+	$scaleedgesoftnessbasedonscreenres 1
+}

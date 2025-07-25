@@ -1,0 +1,483 @@
+"Resource/UI/hud_obj_sentrygun.res"
+{
+	"BuildingStatusItem"
+	{
+		"ControlName"	"Frame"
+		"fieldName"		"BuildingStatusItem"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"160"
+		"tall"			"62"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+	}
+	
+	"Background"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"Background"
+		"xpos"			"0"
+		"ypos"			"23"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"obj_status_background_tall_disabled"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"BG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"BG"
+		"xpos"				"-50"
+		"ypos"				"31"
+		"zpos"				"-10"
+		"wide"				"150"
+		"tall"				"55"
+		"visible"			"0"
+		"visible_minmode"	"0"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/hud/left_red"
+		"scaleImage"		"1"	
+		"teambg_2"			"replay/thumbnails/hud/left_red"
+		"teambg_2_minmode"	"replay/thumbnails/hud/minmode/left_red"
+		"teambg_2_lodef"	"replay/thumbnails/hud/left_red"
+		"teambg_3"			"replay/thumbnails/hud/left_blu"
+		"teambg_3_minmode"	"replay/thumbnails/hud/minmode/left_blu"
+		"teambg_3_lodef"	"replay/thumbnails/hud/left_blu"				
+	}
+	
+	"VertLine"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"VertLine"
+		"xpos"				"51"
+		"ypos"				"24"
+		"zpos"				"10"
+		"wide"				"1"
+		"tall"				"36"
+		"visible"			"1"
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"bgcolor_override"	"188 182 171 255"				
+	}
+	
+	"BlackShade"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BlackShade"
+		"xpos"				"51"
+		"ypos"				"25"
+		"zpos"				"-1"
+		"wide"				"47"
+		"tall"				"36"
+		"visible"			"1"
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"bgcolor_override"	"0 0 0 98"
+		"PaintBackgroundType"	"2"
+		"RoundedCorners"	"10"
+	}
+	
+	"Icon_Sentry_1"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"Icon_Sentry_1"
+		"xpos"			"18"
+		"ypos"			"23"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"obj_status_sentrygun_1"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"Icon_Sentry_2"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"Icon_Sentry_2"
+		"xpos"			"18"
+		"ypos"			"25"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"obj_status_sentrygun_2"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"Icon_Sentry_3"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"Icon_Sentry_3"
+		"xpos"			"18"
+		"ypos"			"27"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"obj_status_sentrygun_3"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"NotBuiltPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"NotBuiltPanel"
+		"xpos"			"0"
+		"ypos"			"23"
+		"wide"			"160"
+		"tall"			"60"
+		"visible"		"1"
+
+		"NotBuiltLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"NotBuiltLabel"
+			"font"			"DefaultVerySmall"
+			"xpos"			"55"
+			"ypos"			"0"
+			"wide"			"200"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#Building_hud_sentry_not_built"
+			"labelText_lodef"		"#Building_hud_sentry_not_built_360"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+	}
+	
+	"BuiltPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BuiltPanel"
+		"xpos"			"0"
+		"ypos"			"23"
+		"wide"			"160"
+		"tall"			"60"
+		"visible"		"0"
+		
+		"Icon_Upgrade_1"
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"Icon_Upgrade_1"
+			"xpos"			"42"
+			"ypos"			"3"
+			"zpos"			"1"
+			"wide"			"8"
+			"tall"			"8"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"	
+			"icon"			"obj_status_upgrade_1"
+			"iconColor"		"255 255 255 255"
+		}
+
+		"Icon_Upgrade_2"
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"Icon_Upgrade_2"
+			"xpos"			"42"
+			"ypos"			"3"
+			"zpos"			"1"
+			"wide"			"8"
+			"tall"			"8"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"	
+			"icon"			"obj_status_upgrade_2"
+			"iconColor"		"255 255 255 255"
+		}
+
+		"Icon_Upgrade_3"
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"Icon_Upgrade_3"
+			"xpos"			"42"
+			"ypos"			"3"
+			"zpos"			"1"
+			"wide"			"8"
+			"tall"			"8"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"	
+			"icon"			"obj_status_upgrade_3"
+			"iconColor"		"255 255 255 255"
+		}
+		
+		"AlertTray"
+		{
+			"ControlName"	"CBuildingStatusAlertTray"
+			"fieldName"		"AlertTray"
+			"xpos"			"95"
+			"ypos"			"0"
+			"ypos"			"0"
+			"zpos"			"-2"
+			"wide"			"30"
+			"tall"			"40"
+			"visible"		"1"
+			"enabled"		"1"	
+			"icon"			"obj_status_alert_background_tall"
+		}
+		
+		"WrenchIcon"
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"WrenchIcon"
+			"xpos"			"98"	// 121
+			"ypos"			"8"		// 18
+			"zpos"			"1"
+			"wide"			"25"	// 27
+			"tall"			"25"	// 27
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"	
+			"icon"			"obj_status_icon_wrench"
+			"iconColor"		"255 255 255 255"
+		}
+		
+		"SapperIcon"
+		{
+			"ControlName"	"CIconPanel"
+			"fieldName"		"SapperIcon"
+			"xpos"			"94"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"33"
+			"tall"			"33"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"	
+			"icon"			"obj_status_icon_sapper"
+			"iconColor"		"255 255 255 255"
+		}
+		
+		"Health"
+		{	
+			"ControlName"	"CBuildingHealthBar"
+			"fieldName"		"Health"
+			"font"			"Default"
+			"xpos"			"11"
+			"ypos"			"2"
+			"wide"			"6"
+			"tall"			"36"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"	
+		}
+		
+		"BuildingPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BuildingPanel"
+			"xpos"			"50"
+			"ypos"			"0"
+			"wide"			"100"
+			"tall"			"60"
+			"visible"		"0"
+
+			"BuildingLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"BuildingLabel"
+				"font"			"DefaultSmall"
+				"xpos"			"4"
+				"ypos"			"10"
+				"wide"			"200"
+				"tall"			"12"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#Building_hud_building"
+				"textAlignment"	"Left"
+				"dulltext"		"0"
+				"brighttext"	"0"
+			}
+			
+			"BuildingProgress"
+			{	
+				"ControlName"	"ContinuousProgressBar"
+				"fieldName"		"BuildingProgress"
+				"font"			"Default"
+				"xpos"			"5"
+				"ypos"			"21"
+				"wide"			"40"
+				"tall"			"6"				
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"dulltext"		"0"
+				"brighttext"	"0"
+			}
+		}
+		
+		"RunningPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RunningPanel"
+			"xpos"			"55"
+			"ypos"			"0"
+			"wide"			"100"
+			"tall"			"60"
+			"visible"		"0"
+			
+			"KillIcon"	
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"KillIcon"
+				"xpos"			"0"
+				"ypos"			"3"
+				"zpos"			"1"
+				"wide"			"10"
+				"tall"			"10"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"../hud/hud_obj_status_kill_64"
+				"drawcolor"		"ProgressOffWhite"
+			}
+						
+			"KillsLabel"
+			{	
+				"ControlName"	"CExLabel"
+				"fieldName"		"KillsLabel"
+				"font"			"DefaultSmall"
+				"xpos"			"12"
+				"ypos"			"4"
+				"wide"			"200"
+				"tall"			"22"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#Building_hud_sentry_kills_assists"
+				"textAlignment"	"north-west"
+				"dulltext"		"0"
+				"brighttext"	"0"
+			}
+					
+			"ShellIcon"	
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"ShellIcon"
+				"xpos"			"0"
+				"ypos"			"15"
+				"zpos"			"1"
+				"wide"			"10"
+				"tall"			"10"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"../hud/hud_obj_status_ammo_64"
+				"drawcolor"		"ProgressOffWhite"
+			}
+			
+			"Shells"
+			{	
+				"ControlName"	"ContinuousProgressBar"
+				"fieldName"		"Shells"
+				"font"			"Default"
+				"xpos"			"12"
+				"ypos"			"17"
+				"wide"			"28"
+				"tall"			"6"				
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"dulltext"		"0"
+				"brighttext"	"0"
+			}
+			
+			"RocketIcon"	
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"RocketIcon"
+				"xpos"			"0"
+				"ypos"			"27"
+				"zpos"			"1"
+				"wide"			"10"
+				"tall"			"10"
+				"visible"		"0"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"../hud/hud_obj_status_rockets_64"
+				"drawcolor"		"ProgressOffWhite"
+			}
+			
+			"Rockets"
+			{	
+				"ControlName"	"ContinuousProgressBar"
+				"fieldName"		"Rockets"
+				"font"			"Default"
+				"xpos"			"12"
+				"ypos"			"29"
+				"wide"			"28"
+				"tall"			"6"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"dulltext"		"0"
+				"brighttext"	"0"
+			}
+
+			"UpgradeIcon"
+			{
+				"ControlName"	"CIconPanel"
+				"fieldName"		"UpgradeIcon"
+				"xpos"			"0"
+				"ypos"			"27"
+				"zpos"			"1"
+				"wide"			"10"
+				"tall"			"10"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"	
+				"icon"			"ico_metal"
+				"iconColor"		"ProgressOffWhite"
+			}			
+			
+			"Upgrade"
+			{	
+				"ControlName"	"ContinuousProgressBar"
+				"fieldName"		"Upgrade"
+				"font"			"Default"
+				"xpos"			"12"
+				"ypos"			"29"
+				"wide"			"28"
+				"tall"			"6"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"dulltext"		"0"
+				"brighttext"	"0"
+			}
+		}
+	}
+}

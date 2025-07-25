@@ -1,0 +1,8 @@
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+// Reload HUD
+hud_reloadscheme
