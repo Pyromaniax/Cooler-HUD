@@ -15,7 +15,7 @@ I've included files to restore some of the original looks as add-ons, plus the o
 
 Credits:
 
-xXtremePilgrimXx - Cool HUD
+xXtremePilgrimXx - COOL HUD
 
 FUNKe - Loadout Background
 
