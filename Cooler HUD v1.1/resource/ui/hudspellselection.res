@@ -6,7 +6,7 @@
 		"ypos"				"r117"
 		"xpos_minmode"		"138"
 		"ypos_minmode"		"r164"
-		"zpos"				"-2"
+		"zpos"				"0"
 
 		"if_killstreak_visible"
 		{

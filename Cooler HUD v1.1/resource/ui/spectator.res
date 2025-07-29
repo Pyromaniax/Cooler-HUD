@@ -72,16 +72,10 @@
 		"fieldName"					"ReinforcementsLabel"
 		"xpos"						"-8"		[$WIN32]
 		"ypos"						"r91"		[$WIN32]
-		"xpos_minmode"				"-23"
-		"ypos_minmode"				"r106"		[$WIN32]
 		"xpos"						"-8"		[$X360]
 		"ypos"						"r98"		[$X360]
-		"ypos_hidef"				"r100"
-		"ypos_lodef"				"r98"
-		"wide"						"290"		[$WIN32]
+		"wide"						"292"		[$WIN32]
 		"tall"						"28"
-		"wide_minmode"				"290"
-		"wide"						"300"		[$X360]
 		"tall_hidef"				"28"
 		"autoResize"				"0"
 		"pinCorner"					"0"

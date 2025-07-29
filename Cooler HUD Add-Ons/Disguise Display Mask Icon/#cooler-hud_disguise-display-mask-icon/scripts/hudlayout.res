@@ -185,7 +185,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"112"
+		"xpos"					"50"
 		"xpos_minmode"			"212"
 		"ypos"					"r126"
 		"ypos_minmode"			"r176"

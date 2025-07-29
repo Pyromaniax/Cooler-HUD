@@ -51,7 +51,6 @@ event HitMarker
 
 	Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
 	Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.50 	// tcHitmarker end
-
 }
 event DamagedPlayer
 {
@@ -78,9 +77,8 @@ event DamageBox
 	//TURN TO GREEN AND HEAL ICON APPEAR
 	
 	Animate		DamageAccountValue			"FgColor"	"0 255 0 255"	Pulse 1.0 2.2 0.5
-	
-	Animate		HealIcon					Alpha		"0"		Linear 0.0 0.0
-	Animate		HealIcon					Alpha		"255"	Pulse 1.0 2.2 0.5
+	Animate		HealIcon					Alpha	"255"	Pulse 1.0 2.2 0.5
+	Animate		HealIcon					Alpha	"0"		Linear 0.0 0.0
 }
 
 event OpenWeaponSelectionMenu
