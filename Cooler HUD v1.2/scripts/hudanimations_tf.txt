@@ -51,13 +51,12 @@ event HitMarker
 
 	Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
 	Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.50 	// tcHitmarker end
-
 }
 event DamagedPlayer
 {
 	StopEvent 	HitMarker 	0.0
-	RunEvent 	HitMarker	0.01	
-	
+	RunEvent 	HitMarker	0.01
+
 	StopEvent 	DamageBox 	0.0
 	RunEvent 	DamageBox	0.01
 }
@@ -69,8 +68,15 @@ event DamageBox
 	Animate		HitIcon						Alpha	"255"	Linear 0.0 0.0
 	Animate		HitIcon						Alpha	"0"		Linear 0.0 2.2
 	
+	Animate		DamageAccountValue			"Fgcolor"	"255 225 0 255"		Linear 0.0 0.0
+	Animate		DamageAccountValue			"FgColor"	"255 55 0 255"		Pulse 5.0 0.0 0.5
+	
+	Animate		DamageAccountValue			Position	"c-29 75"		Linear 0.0 0.0
+	Animate		DamageAccountValue			Position	"c-29 77"		Pulse 5.0 0.0 0.5
+	
 	//TURN TO GREEN AND HEAL ICON APPEAR
-
+	
+	Animate		DamageAccountValue			"FgColor"	"0 255 0 255"	Pulse 1.0 2.2 0.5
 	Animate		HealIcon					Alpha	"255"	Pulse 1.0 2.2 0.5
 	Animate		HealIcon					Alpha	"0"		Linear 0.0 0.0
 }

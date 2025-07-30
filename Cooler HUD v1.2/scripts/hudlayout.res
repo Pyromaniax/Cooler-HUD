@@ -1558,20 +1558,5 @@
 		"teambg_2"		"replay/thumbnails/hud/hitmarker_red"
 		"teambg_3"		"replay/thumbnails/hud/hitmarker_blue"
 	}
-	"Vignette"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"Vignette"
-		"xpos"						"0"
-		"ypos"						"0"
-		"zpos"						"-999"
-		"wide"						"f0"
-		"tall"						"480"
-		"image"						"replay/thumbnails/screen_effects/vignette"
-		"scaleImage"				"1"
-		"enabled"					"0"
-		"visible"					"1"
-	}
-}
 }
 

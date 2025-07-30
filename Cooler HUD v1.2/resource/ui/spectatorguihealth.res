@@ -119,7 +119,7 @@
 		"tall"				"12"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../vgui/class_icons/class_icon_orange_medic"
+		"image"				"replay/thumbnails/hud/health_icon"
 		"scaleImage"		"1"
 	}
 	"PlayerStatusPlayerLevel"
@@ -137,25 +137,5 @@
 		"textAlignment"		"center"	
 		"font"				"ScoreboardVerySmall"
 		"fgcolor"			"TFOrange"
-	}
-	"HealthBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"HealthBG"
-		"xpos"				"0"
-		"ypos"				"1"
-		"xpos_minmode"		"0"
-		"ypos_minmode"		"1"
-		"zpos"				"3"
-		"wide"				"32"
-		"tall"				"19"
-		"wide_minmode"		"32"
-		"tall_minmode"		"19"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"			"0 0 0 0"
-		"PaintBackgroundType"		"2"
-		"border"					"TFFatLineBorderOpaque"
-		"alpha"						"255"
-	}	
+	}							
 }

@@ -58,7 +58,7 @@
 		"textAlignment_minmode"		"center"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"font"						"ChalkboardText2"
+		"font"						"TargetIDFont2"
 	}
 
 	"ItemEffectMeter"
