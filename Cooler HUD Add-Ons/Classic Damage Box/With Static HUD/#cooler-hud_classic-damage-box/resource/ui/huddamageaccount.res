@@ -60,4 +60,18 @@
 		"image"			"replay/thumbnails/hud/hit_icon"
 		"scaleImage"	"1"
 	}
+	"HealIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealIcon"
+		"xpos"			"c-9"
+		"ypos"			"60"
+		"zpos"			"6"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hud/heal_icon"
+		"scaleImage"	"1"
+	}
 }
