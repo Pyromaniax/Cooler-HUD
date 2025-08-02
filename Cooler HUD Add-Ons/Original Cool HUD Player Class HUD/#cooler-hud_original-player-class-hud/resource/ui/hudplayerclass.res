@@ -38,10 +38,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"PlayerStatusSpyImage"
-		"xpos"				"5"		[$WIN32]
+		"xpos"				"-7"		[$WIN32]
 		"ypos"				"32"	[$WIN32]
-		"xpos_minmode"		"5"		[$WIN32]
-		"ypos_minmode"		"32"	[$WIN32]
 		"xpos"				"5"		[$X360]
 		"ypos"				"32"	[$X360]
 		"zpos"				"2"
@@ -51,9 +49,9 @@
 		"tall_minmode"		"55"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/hud/maskicon"
+		"image"				"../hud/ico_spy"
 		"scaleImage"		"1"			
-	}	
+	}		
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"		"CTFImagePanel"
