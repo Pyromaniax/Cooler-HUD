@@ -5,10 +5,11 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"-64"	[$WIN32]
-		"ypos"				"r150"	[$WIN32]
-		"xpos_minmode"		"-64"	[$WIN32]
-		"ypos_minmode"		"r150"	[$WIN32]
+		"xpos"				"-12"	[$WIN32]
+		"ypos"				"r103"	[$WIN32]
+		"xpos_minmode"		"88"	[$WIN32]
+		"ypos_minmode"		"r151"	[$WIN32]
+		"zpos"				"-4"
 		"wide"				"150"
 		"tall"				"50"
 		"MeterFG"			"White"
@@ -30,8 +31,10 @@
 		"image"				"replay/thumbnails/hud/spell_blu"
 		"scaleImage"		"1"	
 		"teambg_2"			"replay/thumbnails/hud/spell_red"
+		"teambg_2_minmode"	"replay/thumbnails/hud/minmode/spell_red"
 		"teambg_2_lodef"	"replay/thumbnails/hud/spell_red"
 		"teambg_3"			"replay/thumbnails/hud/spell_blu"
+		"teambg_3_minmode"	"replay/thumbnails/hud/minmode/spell_blu"
 		"teambg_3_lodef"	"replay/thumbnails/hud/spell_blu"				
 	}
 	
@@ -83,7 +86,6 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"106"
-		"ypos_minmode"			"106"
 		"ypos"					"2"
 		"zpos"					"2"
 		"wide"					"40"
@@ -106,7 +108,6 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"105"
-		"ypos_minmode"			"3"
 		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"40"

@@ -9,7 +9,7 @@
 		"ypos"				"r102"	[$WIN32]
 		"xpos_minmode"		"105"	[$WIN32]
 		"ypos_minmode"		"r150"	[$WIN32]
-		"zpos"				"-1"
+		"zpos"				"-4"
 		"wide"				"100"
 		"tall"				"50"
 		"MeterFG"			"White"
