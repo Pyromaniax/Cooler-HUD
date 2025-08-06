@@ -5,10 +5,10 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"110"	[$WIN32]
+		"xpos"				"84"	[$WIN32]
 		"ypos"				"r35"	[$WIN32]
-		"xpos_minmode"		"266"	[$WIN32]
-		"ypos_minmode"		"r116"	[$WIN32]
+		"xpos_minmode"		"236"	[$WIN32]
+		"ypos_minmode"		"r117"	[$WIN32]
 		"wide"				"100"
 		"tall"				"50"
 		"MeterFG"			"White"
@@ -29,19 +29,19 @@
 		"enabled"			"1"
 		"image"				"replay/thumbnails/hud/effectmeterleftblu"
 		"scaleImage"		"1"	
-		"teambg_2"			"replay/thumbnails/hud/effectmeterleftred"
-		"teambg_2_minmode"	"replay/thumbnails/hud/minmode/effectmeterrightred"
-		"teambg_2_lodef"	"replay/thumbnails/hud/effectmeterleftred"
-		"teambg_3"			"replay/thumbnails/hud/effectmeterleftblu"
-		"teambg_3_minmode"	"replay/thumbnails/hud/minmode/effectmeterrightblu"
-		"teambg_3_lodef"	"replay/thumbnails/hud/effectmeterleftblu"				
+		"teambg_2"			"replay/thumbnails/hud/spell_red"
+		"teambg_2_minmode"	"replay/thumbnails/hud/minmode/spell_red"
+		"teambg_2_lodef"	"replay/thumbnails/hud/spell_red"
+		"teambg_3"			"replay/thumbnails/hud/spell_blu"
+		"teambg_3_minmode"	"replay/thumbnails/hud/minmode/spell_blu"
+		"teambg_3_lodef"	"replay/thumbnails/hud/spell_blu"			
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"ItemEffectMeterLabel"
-		"xpos"						"7"
+		"xpos"						"33"
 		"ypos"						"17"
 		"zpos"						"2"
 		"wide"						"51"
@@ -66,10 +66,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"14"
+		"xpos"					"40"
 		"ypos"					"13"
-		"xpos_minmode"			"12"
-		"ypos_minmode"			"13"
 		"zpos"					"2"
 		"wide"					"36"
 		"wide_minmode"			"36"

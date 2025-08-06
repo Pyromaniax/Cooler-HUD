@@ -75,8 +75,8 @@ event DamageBox
 	
 	Animate		DamageAccountValue			"FgColor"	"0 255 0 255"	Pulse 1.0 2.2 0.5
 	
-	Animate		HealIcon					Alpha		"0"		Linear 0.0 0.0
-	Animate		HealIcon					Alpha		"255"	Pulse 1.0 2.2 0.5
+	Animate		HealIcon					Alpha	"255"	Pulse 1.0 2.2 0.5
+	Animate		HealIcon					Alpha	"0"		Linear 0.0 0.0
 	
 }
 

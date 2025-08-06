@@ -64,8 +64,15 @@ event DamagedPlayer
 
 event DamageBox
 {
-	Animate		HitIcon						Alpha	"255"	Linear 0.0 0.1
-	Animate		HitIcon						Alpha	"0"		Linear 1.5 0.4
+	//TURN TO RED AND WHITE FLASH HIT ICON APPEAR
+	
+	Animate		HitIcon						Alpha	"255"	Linear 0.0 0.0
+	Animate		HitIcon						Alpha	"0"		Linear 0.0 2.2
+	
+	//TURN TO GREEN AND HEAL ICON APPEAR
+
+	Animate		HealIcon					Alpha	"255"	Pulse 1.0 2.2 0.5
+	Animate		HealIcon					Alpha	"0"		Linear 0.0 0.0
 }
 
 event OpenWeaponSelectionMenu

@@ -9,7 +9,7 @@
 		"ypos"			"r99"
 		"xpos_minmode"	"101"
 		"ypos_minmode"	"r149"
-		"zpos"			"0"
+		"zpos"			"-3"
 		"wide"			"502"		// 132
 		"tall"			"99"		// 72
 	}
@@ -36,8 +36,8 @@
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"107"
 		"ypos"				"r22"
-		"xpos_minmode"		"265"
-		"ypos_minmode"		"r100"
+		"xpos_minmode"		"r267"
+		"ypos_minmode"		"r73"
 		"wide"				"100"
 		"tall"				"100"
 		"visible" 			"1"
@@ -185,8 +185,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"112"
-		"xpos_minmode"			"212"
+		"xpos"					"50"
+		"xpos_minmode"			"150"
 		"ypos"					"r126"
 		"ypos_minmode"			"r176"
 		"wide"					"116"
@@ -541,11 +541,9 @@
 		"tall"	"160"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
 	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
-	}	
+	}
 
 	HudBossHealth
 	{
@@ -1009,7 +1007,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"255"
+		"ypos"					"71"
 		"wide"					"300"
 		"tall"					"215"
 	}
