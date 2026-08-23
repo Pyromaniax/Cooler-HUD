@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\hud\hitmarker_blue"
+	"$vertexalpha" 1
+}

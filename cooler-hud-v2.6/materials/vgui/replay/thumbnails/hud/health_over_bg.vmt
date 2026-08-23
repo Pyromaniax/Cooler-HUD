@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "vgui\replay\thumbnails\hud\glow"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$no_fullbright" 1
+	"$color" "{244 194 7}" 
+	"$ignorez" 1
+	"%keywords" "tf"
+}
+
