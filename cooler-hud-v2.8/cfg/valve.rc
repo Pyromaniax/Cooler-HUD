@@ -1,0 +1,14 @@
+// Setup custom controller
+exec joystick.cfg
+
+// Run a user script file if present
+exec autoexec.cfg
+
+// Stuff command line statements
+stuffcmds
+
+// Run music script
+exec music.cfg
+
+// Reload HUD
+hud_reloadscheme

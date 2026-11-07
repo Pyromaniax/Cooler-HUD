@@ -1,0 +1,7 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui\replay\thumbnails\bg_images\item_bg"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}
