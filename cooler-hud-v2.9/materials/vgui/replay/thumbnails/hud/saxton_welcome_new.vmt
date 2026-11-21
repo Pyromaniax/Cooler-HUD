@@ -1,0 +1,8 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui\replay\thumbnails\hud\saxton_welcome_new"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$alphatest"	"1"
+}
+
